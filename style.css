@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    /*align-items: center; /* Tartalom függőleges középre igazítása */
+    height: 350px; /* Állítsd be a fejléc magasságát */
+    background-color: #FFC7EA;
+    /*padding: 20px; /* Padding a tartalom és a szél között */
+    /*background-image: url(header-img.png);
+    background-repeat: no-repeat;*/
+}
+.header-img{
+    background-image: url(header-img.png);
+    background-repeat: no-repeat;
+    height: 350px;
+    background-position: right;
+    /*object-fit: cover;*/
+
+}
+
+
+nav {
+    background-color: #ffffeb;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    display: inline-block;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+main {
+    flex: 2;
+    padding: 20px;
+    background-color: white;
+    margin-right: 20px;
+}
+aside {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
